@@ -1,0 +1,12 @@
+{
+    "name": "goldopuk/daft",
+    "require": {
+        "phpunit/phpunit": "^4.6"
+    },
+    "authors": [
+        {
+            "name": "julien",
+            "email": "juliencolomb@gmail.com"
+        }
+    ]
+}
