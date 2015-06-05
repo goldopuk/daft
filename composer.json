@@ -1,7 +1,8 @@
 {
     "name": "goldopuk/daft",
-    "require": {
-        "phpunit/phpunit": "^4.6"
+    "require-dev": {
+        "phpunit/phpunit": "^4.6",
+        "squizlabs/php_codesniffer": "2.*"
     },
     "authors": [
         {

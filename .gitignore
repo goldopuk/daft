@@ -1,2 +1,5 @@
 /vendor
 composer.lock
+/cache
+/log
+/.DS_Store
