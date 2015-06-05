@@ -31,7 +31,7 @@ class DaftClient {
 		return file_exists($path) ? json_decode(file_get_contents($path), false) : null;
 	}
 	
-	function search($method, $params) {
+	function search($method, array $params) {
 		
 		jlog("searching $method " . json_encode($params));
 		
@@ -42,7 +42,7 @@ class DaftClient {
 		return $response->results;
 	}
 	
-	protected function request($method, $params) {
+	protected function request($method, array $params) {
 		$params['api_key'] = $this->apiKey;
 		return $this->client->$method($params);
 	}

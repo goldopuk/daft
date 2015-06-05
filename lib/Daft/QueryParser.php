@@ -146,4 +146,5 @@ class QueryParser {
 			$this->searchParams['bedrooms'] = array_pop($beds);
 		}		
 	}
+	
 }

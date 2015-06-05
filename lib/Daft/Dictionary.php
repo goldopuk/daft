@@ -5,7 +5,7 @@ class Dictionary
  {	
 	public $dict = array();
 	
-	public function __construct($daftClient) {
+	public function __construct(DaftClient $daftClient) {
 		$this->daftClient = $daftClient;
 		
 		$this->buildDict();
